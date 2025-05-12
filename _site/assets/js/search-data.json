@@ -1,0 +1,58 @@
+{"0": {
+    "doc": "My Bookshelf",
+    "title": "My Bookshelf",
+    "content": " ",
+    "url": "/books/",
+    
+    "relUrl": "/books/"
+  },"1": {
+    "doc": "Book Purchases 2025",
+    "title": "Fiction",
+    "content": " ",
+    "url": "/docs/books2025/#fiction",
+    
+    "relUrl": "/docs/books2025/#fiction"
+  },"2": {
+    "doc": "Book Purchases 2025",
+    "title": "Non-Fiction",
+    "content": ". | The Ancestors Tale by Richard Dawkins [The Bookhive, Bengaluru (Instagram) @ 331 INR] on 26 Jan 2025 | The Stuff of Thoughts by Steven Pinker [The Bookhive, Bengaluru (Instagram) @ 631 INR] on 26 Jan 2025 | Autobiography by Bertrand Russell (Routledge) [Oldbook Depot (Instagram) @ 540 INR] on 19 Jan 2025 ",
+    "url": "/docs/books2025/#non-fiction",
+    
+    "relUrl": "/docs/books2025/#non-fiction"
+  },"3": {
+    "doc": "Book Purchases 2025",
+    "title": "Academic",
+    "content": "| . ",
+    "url": "/docs/books2025/#academic",
+    
+    "relUrl": "/docs/books2025/#academic"
+  },"4": {
+    "doc": "Book Purchases 2025",
+    "title": "Book Purchases 2025",
+    "content": " ",
+    "url": "/docs/books2025/",
+    
+    "relUrl": "/docs/books2025/"
+  },"5": {
+    "doc": "The Garden of Forking Paths",
+    "title": "Topics by Subject",
+    "content": ". tech-help . | Tech Help | . year 2025 . | Book Purchases 2025 | . books . | Book Purchases 2025 | . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"6": {
+    "doc": "The Garden of Forking Paths",
+    "title": "The Garden of Forking Paths",
+    "content": "“I thought of a labyrinth of labyrinths, of one sinuous spreading labyrinth that would encompass the past and the future and in some way involve the stars.” ― Jorge Luis Borges, The Garden of Forking Paths . These pages contain notes and references on random topics that I try to think about beyond my physics. It covers mostly books, art and films. I will also use this space to record some of my writings but the main goal is to capture my thoughts. ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"7": {
+    "doc": "Tech Help",
+    "title": "Tech Help",
+    "content": " ",
+    "url": "/testing/",
+    
+    "relUrl": "/testing/"
+  }
+}

@@ -1,0 +1,274 @@
+// Just the Class dependencies
+@import 'card';
+
+// Just the Class styles
+@import 'announcement';
+@import 'module';
+@import 'schedule';
+@import 'staffer';
+
+/* Sidebar style overrides */
+.nav-list,
+.nav-list-item,
+.nav-list-link,
+.nav-category {
+  font-family: 'EB Garamond', serif !important;
+  font-size: 1.25em !important; // Adjust to 1.3125em to match body exactly if you like
+  line-height: 1.5 !important;
+  color: $body-text-color !important;
+}
+
+.nav-list-link:hover,
+.nav-list-link.active {
+  background: none !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+.side-bar .nav-list .nav-list-link {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.25em;
+  color: $body-text-color;
+}
+
+// Overrides
+
+
+/* eb-garamond-regular - latin */
+
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url('fonts/eb-garamond-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+       url('fonts/eb-garamond-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/eb-garamond-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/eb-garamond-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/eb-garamond-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/eb-garamond-v9-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
+}
+
+body {
+  font-family: 'EB Garamond';
+  font-size: 1.3125em;
+  line-height: 1.5;
+  color: $body-text-color;
+  background-color: $body-background-color;
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 3em;
+  margin: .5em auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1.3333em auto;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-style: italic;
+  margin: 1.875em auto;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1em;
+  font-style: italic;
+  margin: 2em auto;
+  text-align: center;
+}
+
+h6 {
+  font-size: .875em;
+  font-style: italic;
+  margin: 2.25em auto;
+  text-align: center;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: $body-text-color;
+}
+
+a:focus {
+  outline: 1px dashed $body-text-color;
+}
+
+blockquote {
+  margin: 2em auto;
+  opacity: .8;
+  > * {
+    padding: 0 3em;
+  }
+}
+
+blockquote.epigraph {
+  font-style: italic;
+}
+
+small {
+  font-size: .75em;
+}
+
+p > cite {
+  display: block;
+  text-align: right;
+}
+
+
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+}
+
+figure img {
+  margin: 2em auto 1em;
+}
+
+figcaption {
+  font-size: .875em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 2em;
+  opacity: .7;
+}
+
+
+
+
+
+
+
+code {
+  font-size: 14px;
+  padding: 0.2em 0.4em;
+  border: none;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+details {
+  @extend .mb-4;
+}
+
+summary {
+  @extend .btn, .btn-outline;
+
+  width: 100%;
+}
+
+.main-content-wrap {
+  max-width: $content-width;
+  margin: auto;
+}
+
+.main-content {
+  dl {
+    display: block;
+    grid-template-columns: none;
+  }
+
+  dt {
+    font-weight: 700;
+    text-align: start;
+
+    &::after {
+      content: normal;
+    }
+  }
+
+  dd {
+    font-weight: normal;
+
+    + dt {
+      margin-top: 1em;
+    }
+  }
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: 8px;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+}
+
+figure figcaption {
+  margin-top: 0.5em;
+  padding: 0.25em 0.5em;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.book-thumb {
+  height: 250px;
+  max-width: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+// .book-thumb {
+//   height: auto;
+//   max-height: 275px;
+//   width: auto;
+//   max-width: 100%;
+//   object-fit: contain;
+//   display: block;
+//   margin: 0 auto;
+// }
+// Sepia tone variables (adjusted as needed)
+$sepia-bg: #e1d9af; // very light parchment
+$sepia-border: #b8b2a2; // soft border
+$sepia-text: #4b3e2a; // dark brownish text
+$sepia-muted: #927d5d; // softer secondary
+
+// Blockquote
+blockquote {
+  background-color: $sepia-bg;
+  border-left: 4px solid $sepia-border;
+  color: $sepia-muted;
+  padding: 1em 2em;
+  font-style: italic;
+}
+
+// Optional: keyboard and highlight tags
+kbd {
+  background-color: $sepia-border;
+  color: $sepia-text;
+  border: 1px solid darken($sepia-border, 10%);
+}
+
+mark {
+  background-color: lighten($sepia-muted, 30%);
+  color: $sepia-text;
+}

@@ -1,0 +1,24 @@
+$color-scheme: sepia;
+
+/* Light sepia background and text colors */
+$body-background-color: #e1d9af;/* Light beige/sepia */
+$body-heading-color: #6e4b3a ; /* Deep brown for headings */
+$body-text-color: #4a3a2e ; /* Soft brown for body text */
+
+/* Links and buttons */
+$link-color: #7f4f35 ; /* A warm brown for links */
+$nav-child-link-color: #5f3e2f ; /* Lighter brown for nav links */
+$base-button-color: #e7d5b5 ; /* Soft light sepia for buttons */
+$btn-primary-color: #d4b19f ; /* Muted warm sepia for primary buttons */
+
+/* Code block and table styles */
+$code-background-color:#e1d9af;; /* Same as body background for a uniform look */
+$feedback-color: darken($body-background-color, 5%); /* Slightly darker for feedback areas */
+$table-background-color:#e1d9af; /* Same as body background for consistency */
+
+/* Search and other elements */
+$search-background-color: #e1d9af;  /* #f4f1e1; Light sepia background for search */
+$search-result-preview-color: #4a3a2e; /* Matching text color for search results */
+
+/* Sidebar Color */
+$sidebar-color: #e1d9af; /* #d7c6b6 Light, neutral beige for the sidebar */
