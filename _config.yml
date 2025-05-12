@@ -19,7 +19,7 @@ description:
 author: Subhodeep Sarkar
 baseurl:  # the subpath of your site, e.g. /blog
 url: 'https://subhodeeps.github.io' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 favicon_ico: "/assets/images/bulb.png"
 
 # Theme settings
