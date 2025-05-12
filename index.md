@@ -10,10 +10,10 @@ has_toc: false
 >“I thought of a labyrinth of labyrinths, of one sinuous spreading labyrinth that would encompass the past and the future and in some way involve the stars.” 
 ― Jorge Luis Borges, The Garden of Forking Paths
 
-These pages contain notes and references on random topics that I try to think about beyond my physics. It covers mostly books, art and films. I will also use this space to record some of my writings but the main goal is to capture my thoughts.
+These pages contain notes, discussions, and references on various topics I think about beyond physics—mostly books music and films.
 
 <div>
-  <h2>Topics by Subject</h2>
+  <!-- <h2>Topics by Subject</h2> -->
   <ul>
     {% assign all_tags = "" | split: "," %}
 
