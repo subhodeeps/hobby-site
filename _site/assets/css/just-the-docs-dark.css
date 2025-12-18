@@ -6982,18 +6982,27 @@ figure figcaption {
   display: block;
   margin: 0 auto; }
 
+/* Pastel-blue tone variables */
+/* lifted pale blue (sidebar shade) */
+/* soft blue-grey border */
+/* same as body text */
+/* heading-tone blue-grey for emphasis */
+/* Blockquote */
 blockquote {
-  background-color: #e1d9af;
-  border-left: 4px solid #b8b2a2;
-  color: #927d5d;
+  background-color: #e9f1f6;
+  border-left: 4px solid #c0cdda;
+  color: #4f5c6d;
   padding: 1em 2em;
   font-style: italic; }
 
+/* Keyboard tags */
 kbd {
-  background-color: #b8b2a2;
-  color: #4b3e2a;
-  border: 1px solid #a29a85; }
+  background-color: #c0cdda;
+  color: #4f5c6d;
+  border: 1px solid #a0b4c7; }
 
+/* Highlight text */
 mark {
-  background-color: #d1c7b7;
-  color: #4b3e2a; }
+  background-color: white;
+  /* gentle highlight */
+  color: #4f5c6d; }

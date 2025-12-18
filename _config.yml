@@ -17,7 +17,7 @@ title: forkingPaths
 tagline: The Garden of Forking Paths 
 description: 
 author: Subhodeep Sarkar
-baseurl:  # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: 'https://subhodeeps.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor"]
 favicon_ico: "/assets/images/bulb.png"
@@ -25,7 +25,7 @@ favicon_ico: "/assets/images/bulb.png"
 # Theme settings
 # remote_theme: just-the-docs/just-the-docs@v0.7.0
 theme: just-the-docs
-color_scheme: sepia
+color_scheme: pastel-blue
 search_enabled: true
 heading_anchors: true
 permalink: pretty

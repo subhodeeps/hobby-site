@@ -247,28 +247,56 @@ figure figcaption {
 //   margin: 0 auto;
 // }
 // Sepia tone variables (adjusted as needed)
-$sepia-bg: #e1d9af; // very light parchment
-$sepia-border: #b8b2a2; // soft border
-$sepia-text: #4b3e2a; // dark brownish text
-$sepia-muted: #927d5d; // softer secondary
+// $sepia-bg: #e1d9af; // very light parchment
+// $sepia-border: #b8b2a2; // soft border
+// $sepia-text: #4b3e2a; // dark brownish text
+// $sepia-muted: #927d5d; // softer secondary
 
-// Blockquote
+// // Blockquote
+// blockquote {
+//   background-color: $sepia-bg;
+//   border-left: 4px solid $sepia-border;
+//   color: $sepia-muted;
+//   padding: 1em 2em;
+//   font-style: italic;
+// }
+
+// // Optional: keyboard and highlight tags
+// kbd {
+//   background-color: $sepia-border;
+//   color: $sepia-text;
+//   border: 1px solid darken($sepia-border, 10%);
+// }
+
+// mark {
+//   background-color: lighten($sepia-muted, 30%);
+//   color: $sepia-text;
+// }
+
+/* Pastel-blue tone variables */
+$quote-bg:        #e9f1f6;   /* lifted pale blue (sidebar shade) */
+$quote-border:    #c0cdda;   /* soft blue-grey border */
+$quote-text:      #4f5c6d;   /* same as body text */
+$quote-muted:     #5f6e85;   /* heading-tone blue-grey for emphasis */
+
+/* Blockquote */
 blockquote {
-  background-color: $sepia-bg;
-  border-left: 4px solid $sepia-border;
-  color: $sepia-muted;
+  background-color: $quote-bg;
+  border-left: 4px solid $quote-border;
+  color: $quote-text;
   padding: 1em 2em;
   font-style: italic;
 }
 
-// Optional: keyboard and highlight tags
+/* Keyboard tags */
 kbd {
-  background-color: $sepia-border;
-  color: $sepia-text;
-  border: 1px solid darken($sepia-border, 10%);
+  background-color: $quote-border;
+  color: $quote-text;
+  border: 1px solid darken($quote-border, 10%);
 }
 
+/* Highlight text */
 mark {
-  background-color: lighten($sepia-muted, 30%);
-  color: $sepia-text;
+  background-color: lighten($quote-bg, 8%);  /* gentle highlight */
+  color: $quote-text;
 }
